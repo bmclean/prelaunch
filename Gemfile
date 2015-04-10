@@ -29,7 +29,10 @@ end
 
 gem 'delayed_job_active_record'
 
-gem 'unicorn'
+group :production do
+  gem 'unicorn'
+  gem 'rails_12factor'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
