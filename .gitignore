@@ -15,6 +15,9 @@
 /tmp
 /lib/assets/*.csv
 
+# Mac finder artifacts
 .DS_Store
+# RubyMine project files
+.idea
 
 .elasticbeanstalk
